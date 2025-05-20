@@ -45,5 +45,3 @@ int shift_down(t_stack *s)
         s->tab[s->size -1]=shifter;
         return 1;
 }
-
-

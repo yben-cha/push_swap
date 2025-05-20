@@ -54,11 +54,11 @@ void display_stack(t_stack *stack)
 {
 	if(!stack)
 		return;
-	int i=0;
-	while(i< stack->size)
+	int i=stack->size -1;
+	while(i>=0)
 	{
 		printf("%d  ", stack->tab[i] );
-		i++;
+		i--;
 	}
 	printf("\n");
 }
